@@ -120,4 +120,4 @@ import {
 
 ## 📖 Integration Docs
 
-Look for more info about integrating SteramPay into your products [here](https://docs.streampay.streamprotocol.org)
+Look for more info about integrating SteramPay into your products [here](https://icy-ulna-81b.notion.site/StreamPay-Web-App-Widget-SDK-Wiki-79977d478e714415af90250555b2f983)
