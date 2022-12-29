@@ -1,6 +1,6 @@
 {
     "name": "@stream-pay/streampay-widget-sdk",
-    "version": "2.4.1",
+    "version": "2.4.2",
     "description": "SDK to conveniently communicate with StreamPay widget",
     "main": "dist/index.js",
     "devDependencies": {
@@ -29,5 +29,8 @@
         "url": "https://github.com/stream-protocol/streampay-widget-sdk/issues"
     },
     "homepage": "https://github.com/stream-protocol/streampay-widget-sdk#readme",
-    "types": "./dist/index.d.ts"
+    "types": "./dist/index.d.ts",
+    "dependencies": {
+        "@stream-pay/streampay-widget-sdk": "^2.4.2"
+    }
 }
