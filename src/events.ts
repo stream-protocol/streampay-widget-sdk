@@ -19,7 +19,7 @@ export interface WidgetMessageEventData {
 }
 
 export interface WidgetEvent<T = EventPayload> {
-  type: EventType; // second type is for previous version compatability
+  type: EventType; // second type is for previous version compatibility
   payload: T;
 }
 

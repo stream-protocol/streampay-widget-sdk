@@ -8,7 +8,7 @@ const ERROR_NO_MOUNT_ELEMENT = new Error('[StreamPay]: provide mount element');
 
 const DEFAULTS = {
   IFRAME_CLASS: 'StreamPay__iframe',
-  IFRAME_ID: 'near-pay-iframe',
+  IFRAME_ID: 'stream-pay-iframe',
 };
 
 /**

@@ -6,7 +6,7 @@ const global_1 = require("../helpers/global");
 const ERROR_NO_MOUNT_ELEMENT = new Error('[StreamPay]: provide mount element');
 const DEFAULTS = {
     IFRAME_CLASS: 'StreamPay__iframe',
-    IFRAME_ID: 'near-pay-iframe',
+    IFRAME_ID: 'stream-pay-iframe',
 };
 const stylesheetContent = `
 .StreamPay__iframe {

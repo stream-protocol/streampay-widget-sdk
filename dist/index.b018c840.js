@@ -578,17 +578,17 @@ declare var browser: ExtensionContext;
         var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
         parcelHelpers.defineInteropFlag(exports);
         parcelHelpers.export(exports, "makeSignatureString", () => _makeSignatureString.makeSignatureString);
-        parcelHelpers.export(exports, "StreamPay", () => _nearPay.StreamPay);
+        parcelHelpers.export(exports, "StreamPay", () => _streamPay.StreamPay);
         parcelHelpers.export(exports, "isStreampayEvent", () => _isStreampayEvent.isStreampayEvent);
         parcelHelpers.export(exports, "getWidgetUrl", () => _getWidgetUrl.getWidgetUrl);
         var _events = require("./events");
         parcelHelpers.exportAll(_events, exports);
         var _makeSignatureString = require("./helpers/makeSignatureString");
-        var _nearPay = require("./sdk/stream-pay");
+        var _streamPay = require("./sdk/stream-pay");
         var _isStreampayEvent = require("./helpers/isStreampayEvent");
         var _getWidgetUrl = require("./helpers/getWidgetUrl");
 
-    }, { "./events": "1K5ob", "./helpers/makeSignatureString": "3JceE", "./sdk/near-pay": "9DXHi", "./helpers/isStreampayEvent": "aYuHq", "./helpers/getWidgetUrl": "1spVz", "@parcel/transformer-js/src/esmodule-helpers.js": "gkKU3" }],
+    }, { "./events": "1K5ob", "./helpers/makeSignatureString": "3JceE", "./sdk/stream-pay": "9DXHi", "./helpers/isStreampayEvent": "aYuHq", "./helpers/getWidgetUrl": "1spVz", "@parcel/transformer-js/src/esmodule-helpers.js": "gkKU3" }],
     "1K5ob": [function(require, module, exports) {
         var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
         parcelHelpers.defineInteropFlag(exports);
@@ -648,7 +648,7 @@ declare var browser: ExtensionContext;
         const ERROR_NO_MOUNT_ELEMENT = new Error('[StreamPay]: provide mount element');
         const DEFAULTS = {
             IFRAME_CLASS: 'StreamPay__iframe',
-            IFRAME_ID: 'near-pay-iframe'
+            IFRAME_ID: 'stream-pay-iframe'
         };
         const stylesheetContent = `
 .StreamPay__iframe {

@@ -15,8 +15,8 @@ exports.getWidgetUrl = exports.isStreampayEvent = exports.StreamPay = exports.ma
 __exportStar(require("./events"), exports);
 var makeSignatureString_1 = require("./helpers/makeSignatureString");
 Object.defineProperty(exports, "makeSignatureString", { enumerable: true, get: function() { return makeSignatureString_1.makeSignatureString; } });
-var near_pay_1 = require("./sdk/stream-pay");
-Object.defineProperty(exports, "StreamPay", { enumerable: true, get: function() { return near_pay_1.StreamPay; } });
+var stream_pay_1 = require("./sdk/stream-pay");
+Object.defineProperty(exports, "StreamPay", { enumerable: true, get: function() { return stream_pay_1.StreamPay; } });
 var isStreampayEvent_1 = require("./helpers/isStreampayEvent");
 Object.defineProperty(exports, "isStreampayEvent", { enumerable: true, get: function() { return isStreampayEvent_1.isStreampayEvent; } });
 var getWidgetUrl_1 = require("./helpers/getWidgetUrl");

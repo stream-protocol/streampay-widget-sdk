@@ -1,6 +1,6 @@
 # StreamPay Widget SDK
 
-`@streampay/streampay-widget-sdk` allows you to easily integrate the StreamPay widget into your web app and communicate with it.
+`@stream-pay/streampay-widget-sdk` allows you to easily integrate the StreamPay widget into your web app and communicate with it.
 
 Using this SDK is not necessary, although it will simplify your experience and therefore is recommended.
 
@@ -8,18 +8,18 @@ It's written with TypeScript, with all the typings defined out of the box.
 
 ## Installation
 
-You can find the package here - https://www.npmjs.com/package/@streampay/streampay-widget-sdk.
+You can find the package here - https://www.npmjs.com/package/@stream-pay/streampay-widget-sdk.
 
 Install via Yarn:
 
 ```shell
-yarn add @streampay/streampay-widget-sdk
+yarn add @stream-pay/streampay-widget-sdk
 ```
 
 Install via npm:
 
 ```shell
-npm install @streampay/streampay-widget-sdk
+npm install @stream-pay/streampay-widget-sdk
 ```
 
 ## Quick Start
@@ -30,7 +30,7 @@ import {
   SignedWidgetParams,
   EventType,
   ResizePayload,
-} from '@streampay/streampay-widget-sdk';
+} from '@stream-pay/streampay-widget-sdk';
 
 // more info about params available at SignedWidgetParams definition
 const params: SignedWidgetParams = {
@@ -95,7 +95,7 @@ interface WidgetMessageEventData {
 
 ### Available Events
 
-All the typings for events and their `payload` are defined and exported from `@streampay/streampay-widget-sdk`
+All the typings for events and their `payload` are defined and exported from `@stream-pay/streampay-widget-sdk`
 
 ```ts
 // EventType is a union type that consist of every event type available
@@ -115,7 +115,7 @@ import {
   OnOperationFail,
   OnUnsupported,
   OnForceContinue,
-} from '@streampay/streampay-widget-sdk';
+} from '@stream-pay/streampay-widget-sdk';
 ```
 
 ## 📖 Integration Docs

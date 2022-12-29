@@ -1,5 +1,5 @@
 {
-    "name": "@streampay/streampay-widget-sdk",
+    "name": "@stream-pay/streampay-widget-sdk",
     "version": "2.4.1",
     "description": "SDK to conveniently communicate with StreamPay widget",
     "main": "dist/index.js",
@@ -17,11 +17,17 @@
         "type": "git",
         "url": "git+https://github.com/stream-protocol/streampay-widget-sdk.git"
     },
-    "keywords": ["streampay", "sdk", "typescript", "iframe"],
+    "keywords": [
+        "streampay",
+        "sdk",
+        "typescript",
+        "iframe"
+    ],
     "author": "contact@streamprotocol.org",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/stream-protocol/streampay-widget-sdk/issues"
     },
-    "homepage": "https://github.com/stream-protocol/streampay-widget-sdk#readme"
+    "homepage": "https://github.com/stream-protocol/streampay-widget-sdk#readme",
+    "types": "./dist/index.d.ts"
 }
